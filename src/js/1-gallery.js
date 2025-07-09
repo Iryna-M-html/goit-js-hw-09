@@ -1,5 +1,5 @@
-// import SimpleLightbox from 'simplelightbox';
-// import 'simplelightbox/dist/simple-lightbox.min.css';
+import SimpleLightbox from 'simplelightbox';
+import 'simplelightbox/dist/simple-lightbox.min.css';
 
 const images = [
   {
@@ -87,7 +87,7 @@ const markup = images
 galleryRef.innerHTML = markup;
 
 
-// new SimpleLightbox('.main-title a', {
-//   captionsData: 'alt',
-//   captionDelay: 250,
-// });
+new SimpleLightbox('.main-title a', {
+  captionsData: 'alt',
+  captionDelay: 250,
+});

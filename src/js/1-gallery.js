@@ -67,7 +67,7 @@ const images = [
   },
 ];
 
-const galleryRef = document.querySelector('.main-title');
+const galleryRef = document.querySelector('.gallery');
 
 const markup = images
   .map(
@@ -87,7 +87,7 @@ const markup = images
 galleryRef.innerHTML = markup;
 
 
-new SimpleLightbox('.main-title a', {
+new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
   captionDelay: 250,
 });

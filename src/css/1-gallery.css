@@ -11,9 +11,13 @@ ul {
     padding: 0;
     list-style: none;
 }
+.main-title{
+   display: none; 
+}
 
 
-.main-title {
+
+.gallery {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
